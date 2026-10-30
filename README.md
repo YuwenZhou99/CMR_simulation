@@ -6,8 +6,9 @@ Repository for control methods of a simulated UR7e
 
 ```bash
 git clone https://github.com/YuwenZhou99/CMR_simulation.git
-pip install -e control_methods_simulation/
-pip install -r requirements.txt
+cd CMR_simulation
+python -m pip install -r requirements.txt
+python -m pip install -e .
 ```
 
 ## Usage
