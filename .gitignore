@@ -1,2 +1,5 @@
 *.pyc
 .venv/
+
+# Local generated logs, diagnostics and temporary artifacts
+/outputs/

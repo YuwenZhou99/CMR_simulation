@@ -1,0 +1,59 @@
+{
+  "policy": "ppo",
+  "training_steps": 1202176,
+  "seed": 0,
+  "config": {
+    "task": "push",
+    "mode": "path",
+    "target": [
+      0.4,
+      0.3,
+      0.5
+    ],
+    "box_start": [
+      0.48,
+      -0.16
+    ],
+    "goal": [
+      0.48,
+      0.1
+    ],
+    "goal_radius": 0.1,
+    "push_height": 0.05,
+    "policy_hz": 50,
+    "max_velocity": 1.0,
+    "velocity_gain": 30.0,
+    "stage": "base",
+    "randomize": false,
+    "random_positions": false,
+    "reward_version": 2,
+    "push_stage": "push"
+  },
+  "episodes": [
+    {
+      "is_success": true,
+      "failure_reason": "",
+      "time": 3.54,
+      "joint_rmse": 0.32358990275308686,
+      "position_error": 0.24091775349542735,
+      "box_error": 0.07604941833117533,
+      "contact_steps": 98,
+      "clipped_substeps": 11,
+      "pusher_contact_steps": 96,
+      "robot_contact_steps": 9,
+      "episode": 0,
+      "scene_seed": 0,
+      "reward": 28.408388724194083,
+      "peak_contact_force": 44.741167842189554,
+      "goal": [
+        0.48,
+        0.1
+      ],
+      "box_start": [
+        0.48,
+        -0.16
+      ]
+    }
+  ],
+  "success_rate": 1.0
+}

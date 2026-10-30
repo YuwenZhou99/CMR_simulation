@@ -1,0 +1,7 @@
+{
+  "resume": "E:\\AI Master\\Control Methods for Robotics\\control_methods_simulation\\results\\rl\\push_ppo",
+  "starting_timesteps": 1001472,
+  "additional_steps": 200000,
+  "validation_episodes": 5,
+  "selection": "mean validation reward"
+}

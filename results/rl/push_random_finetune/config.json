@@ -1,0 +1,44 @@
+{
+  "config": {
+    "task": "push",
+    "mode": "path",
+    "target": [
+      0.4,
+      0.3,
+      0.5
+    ],
+    "box_start": [
+      0.48,
+      -0.16
+    ],
+    "goal": [
+      0.48,
+      0.1
+    ],
+    "goal_radius": 0.1,
+    "push_height": 0.05,
+    "policy_hz": 50,
+    "max_velocity": 1.0,
+    "velocity_gain": 30.0,
+    "stage": "base",
+    "randomize": false,
+    "random_positions": true,
+    "reward_version": 2,
+    "push_stage": "push"
+  },
+  "algorithm": "ppo",
+  "seed": 0,
+  "optimization": {
+    "gamma": 0.99,
+    "learning_rate": 0.0003,
+    "target_kl": null
+  },
+  "timesteps": 1202176,
+  "status": "Training checkpoint; performance requires separate evaluation.",
+  "source_hashes": {
+    "scripts/classic_control.py": "22d21628af7fa36f389a632c69e409c75bf94e443bb950e4302fa9c75023536e",
+    "scripts/classic_control_env.py": "8d1c5f0b4224be244114a5124e2956c941261dbc9701b9d79a1763177c02d50e",
+    "scripts/rl_control.py": "48f4b3c848801e8e4f29fdb2ca5b34560356c9d4b34a442bb810d6ffbd494f9e",
+    "ur_simulation/rl_control/environment.py": "7fb0b30278146005e686c552d5e7aa789e0f8a9ebb74ebc514f5f3aa84c113fb"
+  }
+}

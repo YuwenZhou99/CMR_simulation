@@ -1,0 +1,36 @@
+{
+  "config": {
+    "task": "trajectory",
+    "mode": "path",
+    "target": [
+      0.4,
+      0.3,
+      0.5
+    ],
+    "box_start": [
+      0.48,
+      -0.16
+    ],
+    "goal": [
+      0.48,
+      0.1
+    ],
+    "goal_radius": 0.1,
+    "push_height": 0.05,
+    "policy_hz": 50,
+    "max_velocity": 1.0,
+    "velocity_gain": 30.0,
+    "stage": "base",
+    "randomize": false
+  },
+  "algorithm": "ppo",
+  "seed": 0,
+  "timesteps": 1001472,
+  "status": "Training checkpoint; performance requires separate evaluation.",
+  "source_hashes": {
+    "scripts/classic_control.py": "4e4bd8c77f9ce8a823c978522350c2cb8fb552af1a5de27689088d710bd31c50",
+    "scripts/classic_control_env.py": "f2291f2db3444cd1d1434c4dd46607bf7511247f992614b4b4dce2cc8139c5fc",
+    "scripts/rl_control.py": "8790334d63e5ad3203a7113bcc6fc91e1c5c49a89e0e6afa54791830d105e464",
+    "ur_simulation/rl_control/environment.py": "cdfc3d818252296035fc9c5363b679f9e788931fb90a4290f82576c59bb8fe89"
+  }
+}

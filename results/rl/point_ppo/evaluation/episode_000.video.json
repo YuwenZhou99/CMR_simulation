@@ -1,0 +1,11 @@
+{
+  "method": "OpenGL scene render using GUI camera, with configured background color",
+  "fps": 25,
+  "frames": 275,
+  "playback_seconds": 11.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "clock": "simulation time"
+}

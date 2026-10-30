@@ -1,0 +1,4 @@
+# CPU installation: first install torch from https://download.pytorch.org/whl/cpu
+torch==2.8.0
+stable-baselines3==2.7.0
+gymnasium==1.2.0

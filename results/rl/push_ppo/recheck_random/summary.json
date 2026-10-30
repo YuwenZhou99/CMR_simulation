@@ -1,0 +1,515 @@
+{
+  "policy": "ppo",
+  "training_steps": 1001472,
+  "seed": 30000,
+  "config": {
+    "task": "push",
+    "mode": "path",
+    "target": [
+      0.4,
+      0.3,
+      0.5
+    ],
+    "box_start": [
+      0.48,
+      -0.16
+    ],
+    "goal": [
+      0.48,
+      0.1
+    ],
+    "goal_radius": 0.1,
+    "push_height": 0.05,
+    "policy_hz": 50,
+    "max_velocity": 1.0,
+    "velocity_gain": 30.0,
+    "stage": "base",
+    "randomize": false,
+    "random_positions": true,
+    "reward_version": 2,
+    "push_stage": "push"
+  },
+  "episodes": [
+    {
+      "is_success": false,
+      "failure_reason": "",
+      "time": 20.86,
+      "joint_rmse": 0.3381485492721466,
+      "position_error": 0.23500418031883777,
+      "box_error": 0.18051875472424428,
+      "contact_steps": 42,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 19,
+      "robot_contact_steps": 23,
+      "episode": 0,
+      "scene_seed": 30000,
+      "reward": -18.281730374765175,
+      "peak_contact_force": 584.2477469537639,
+      "goal": [
+        0.43276764256870626,
+        0.1071030440069686
+      ],
+      "box_start": [
+        0.4530696840858596,
+        -0.13844148941189752
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "",
+      "time": 21.04,
+      "joint_rmse": 0.3293800052601296,
+      "position_error": 0.1385880530166603,
+      "box_error": 0.12584555988536872,
+      "contact_steps": 16,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 16,
+      "robot_contact_steps": 0,
+      "episode": 1,
+      "scene_seed": 30001,
+      "reward": -17.528804111858335,
+      "peak_contact_force": 171.3695753338879,
+      "goal": [
+        0.4755652589543906,
+        0.13611359966211906
+      ],
+      "box_start": [
+        0.4597437519432149,
+        -0.11418265203789077
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "",
+      "time": 20.38,
+      "joint_rmse": 0.2526951052450187,
+      "position_error": 0.1916568167114554,
+      "box_error": 0.13665923249859255,
+      "contact_steps": 174,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 172,
+      "robot_contact_steps": 2,
+      "episode": 2,
+      "scene_seed": 30002,
+      "reward": -13.876174220320536,
+      "peak_contact_force": 355.7853361420662,
+      "goal": [
+        0.4671889430582773,
+        0.13287955376448346
+      ],
+      "box_start": [
+        0.4592895113869096,
+        -0.10142618595175276
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "overspeed",
+      "time": 6.76,
+      "joint_rmse": 0.29196903688528886,
+      "position_error": 0.060676207516687224,
+      "box_error": 0.20675245581070248,
+      "contact_steps": 128,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 31,
+      "robot_contact_steps": 97,
+      "episode": 3,
+      "scene_seed": 30003,
+      "reward": -100.82408355334337,
+      "peak_contact_force": 356.9988458966886,
+      "goal": [
+        0.42499930469039404,
+        0.09315187278369533
+      ],
+      "box_start": [
+        0.5187805520599019,
+        -0.12673422022141273
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "",
+      "time": 22.42,
+      "joint_rmse": 0.26045255524889604,
+      "position_error": 0.12624223209361593,
+      "box_error": 0.10848100355413903,
+      "contact_steps": 61,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 22,
+      "robot_contact_steps": 39,
+      "episode": 4,
+      "scene_seed": 30004,
+      "reward": -14.060409407917177,
+      "peak_contact_force": 408.2899376744911,
+      "goal": [
+        0.45115086575866126,
+        0.16547018879973266
+      ],
+      "box_start": [
+        0.4409775941280108,
+        -0.11957949978349597
+      ]
+    },
+    {
+      "is_success": true,
+      "failure_reason": "",
+      "time": 5.32,
+      "joint_rmse": 0.28353234912796504,
+      "position_error": 0.1476635867010825,
+      "box_error": 0.05543100555502048,
+      "contact_steps": 151,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 151,
+      "robot_contact_steps": 0,
+      "episode": 5,
+      "scene_seed": 30005,
+      "reward": 25.07165689955582,
+      "peak_contact_force": 336.38220548230197,
+      "goal": [
+        0.46475050488742725,
+        0.1156983990325002
+      ],
+      "box_start": [
+        0.45318313988743175,
+        -0.10199326617788983
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "",
+      "time": 19.64,
+      "joint_rmse": 0.33137015708234036,
+      "position_error": 0.3077065707468369,
+      "box_error": 0.21258531048926232,
+      "contact_steps": 10,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 0,
+      "robot_contact_steps": 10,
+      "episode": 6,
+      "scene_seed": 30006,
+      "reward": -20.24601331957092,
+      "peak_contact_force": 9.590808690254397,
+      "goal": [
+        0.46264441406275686,
+        0.06627255090908803
+      ],
+      "box_start": [
+        0.42291843314690314,
+        -0.14564787265903814
+      ]
+    },
+    {
+      "is_success": true,
+      "failure_reason": "",
+      "time": 4.0200000000000005,
+      "joint_rmse": 0.3224716233740493,
+      "position_error": 0.24874720956919813,
+      "box_error": 0.0003526611691816766,
+      "contact_steps": 77,
+      "clipped_substeps": 10,
+      "pusher_contact_steps": 34,
+      "robot_contact_steps": 57,
+      "episode": 7,
+      "scene_seed": 30007,
+      "reward": 29.907396835697,
+      "peak_contact_force": 491.1033939336578,
+      "goal": [
+        0.46733834810174046,
+        0.06439926720608599
+      ],
+      "box_start": [
+        0.49031149090539805,
+        -0.1953638874160687
+      ]
+    },
+    {
+      "is_success": true,
+      "failure_reason": "",
+      "time": 4.2,
+      "joint_rmse": 0.31986079204242845,
+      "position_error": 0.21732330520569615,
+      "box_error": 0.01189967013482011,
+      "contact_steps": 85,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 44,
+      "robot_contact_steps": 41,
+      "episode": 8,
+      "scene_seed": 30008,
+      "reward": 28.366296033127583,
+      "peak_contact_force": 284.5516366785687,
+      "goal": [
+        0.472246017171218,
+        0.10229094261733898
+      ],
+      "box_start": [
+        0.5178829820402177,
+        -0.14098829812416902
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "",
+      "time": 20.14,
+      "joint_rmse": 0.3630514284076811,
+      "position_error": 0.16903384841258132,
+      "box_error": 0.11939271677065702,
+      "contact_steps": 156,
+      "clipped_substeps": 7,
+      "pusher_contact_steps": 50,
+      "robot_contact_steps": 119,
+      "episode": 9,
+      "scene_seed": 30009,
+      "reward": -18.02610572928097,
+      "peak_contact_force": 563.2001813111003,
+      "goal": [
+        0.42009319744202167,
+        0.06719038127206813
+      ],
+      "box_start": [
+        0.4433003761499108,
+        -0.15989039805184502
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "ground_contact",
+      "time": 6.78,
+      "joint_rmse": 0.2384944658616941,
+      "position_error": 0.08473567533784714,
+      "box_error": 0.10060127759385798,
+      "contact_steps": 214,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 110,
+      "robot_contact_steps": 113,
+      "episode": 10,
+      "scene_seed": 30010,
+      "reward": -97.37175258737989,
+      "peak_contact_force": 342.31441033581524,
+      "goal": [
+        0.5088428581953605,
+        0.12739833732719125
+      ],
+      "box_start": [
+        0.4864089827705482,
+        -0.10307507570226786
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "",
+      "time": 21.76,
+      "joint_rmse": 0.3209969255352184,
+      "position_error": 0.2688939923430907,
+      "box_error": 0.2235640222239114,
+      "contact_steps": 25,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 25,
+      "robot_contact_steps": 0,
+      "episode": 11,
+      "scene_seed": 30011,
+      "reward": -19.40607232369075,
+      "peak_contact_force": 425.00008294287323,
+      "goal": [
+        0.45438414791739523,
+        0.11398323064993454
+      ],
+      "box_start": [
+        0.4509635504034882,
+        -0.15490659348554814
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "",
+      "time": 20.48,
+      "joint_rmse": 0.36822926576038917,
+      "position_error": 0.22890088092598318,
+      "box_error": 0.16379632453734605,
+      "contact_steps": 93,
+      "clipped_substeps": 1,
+      "pusher_contact_steps": 31,
+      "robot_contact_steps": 62,
+      "episode": 12,
+      "scene_seed": 30012,
+      "reward": -20.720451562374365,
+      "peak_contact_force": 601.9241605861637,
+      "goal": [
+        0.4419066102810747,
+        0.12076071589065913
+      ],
+      "box_start": [
+        0.4908113209175874,
+        -0.11071263578997013
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "",
+      "time": 19.48,
+      "joint_rmse": 0.2385288660521954,
+      "position_error": 0.09836816889608768,
+      "box_error": 0.12362039568973797,
+      "contact_steps": 346,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 72,
+      "robot_contact_steps": 274,
+      "episode": 13,
+      "scene_seed": 30013,
+      "reward": -13.239710455323802,
+      "peak_contact_force": 653.9813088482013,
+      "goal": [
+        0.43284063032773296,
+        0.07461309471918157
+      ],
+      "box_start": [
+        0.425989964427029,
+        -0.1369345925589829
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "overspeed",
+      "time": 6.88,
+      "joint_rmse": 0.28643612104634775,
+      "position_error": 0.06457970016785343,
+      "box_error": 0.20949037105982216,
+      "contact_steps": 171,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 108,
+      "robot_contact_steps": 70,
+      "episode": 14,
+      "scene_seed": 30014,
+      "reward": -100.79557731070236,
+      "peak_contact_force": 503.68020103447515,
+      "goal": [
+        0.4393815810020086,
+        0.10062293731727569
+      ],
+      "box_start": [
+        0.5220223824097285,
+        -0.12970417629224124
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "ground_contact",
+      "time": 6.66,
+      "joint_rmse": 0.2553201746058508,
+      "position_error": 0.08359944897664866,
+      "box_error": 0.17487290948492795,
+      "contact_steps": 45,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 0,
+      "robot_contact_steps": 45,
+      "episode": 15,
+      "scene_seed": 30015,
+      "reward": -98.4022060762627,
+      "peak_contact_force": 40.38861084627016,
+      "goal": [
+        0.5080950416537842,
+        0.12828140528400162
+      ],
+      "box_start": [
+        0.4820873649149587,
+        -0.1434801058913813
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "ground_contact",
+      "time": 16.16,
+      "joint_rmse": 0.47296648513353096,
+      "position_error": 0.20504572991978084,
+      "box_error": 0.16182870061376087,
+      "contact_steps": 5326,
+      "clipped_substeps": 2,
+      "pusher_contact_steps": 174,
+      "robot_contact_steps": 5152,
+      "episode": 16,
+      "scene_seed": 30016,
+      "reward": -115.56991370224569,
+      "peak_contact_force": 472.4463615689342,
+      "goal": [
+        0.4633802671246952,
+        0.15109920978509503
+      ],
+      "box_start": [
+        0.5042751183452877,
+        -0.1287213076889991
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "ground_contact",
+      "time": 5.34,
+      "joint_rmse": 0.29590090789338547,
+      "position_error": 0.21576502156587707,
+      "box_error": 0.1290492474004518,
+      "contact_steps": 65,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 0,
+      "robot_contact_steps": 65,
+      "episode": 17,
+      "scene_seed": 30017,
+      "reward": -93.46748052464682,
+      "peak_contact_force": 227.47532178541107,
+      "goal": [
+        0.4833152007753542,
+        0.16963320605388094
+      ],
+      "box_start": [
+        0.47086697930985555,
+        -0.1460789780300679
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "",
+      "time": 24.36,
+      "joint_rmse": 0.27765900282708117,
+      "position_error": 0.2673566122518939,
+      "box_error": 0.2035843967367722,
+      "contact_steps": 133,
+      "clipped_substeps": 10,
+      "pusher_contact_steps": 0,
+      "robot_contact_steps": 133,
+      "episode": 18,
+      "scene_seed": 30018,
+      "reward": -18.568473421648378,
+      "peak_contact_force": 243.69238568039455,
+      "goal": [
+        0.4558834732020808,
+        0.15494782083336955
+      ],
+      "box_start": [
+        0.5157569130865913,
+        -0.17344919594578964
+      ]
+    },
+    {
+      "is_success": false,
+      "failure_reason": "ground_contact",
+      "time": 4.8,
+      "joint_rmse": 0.26690983123408174,
+      "position_error": 0.04916998556749337,
+      "box_error": 0.18720942801565565,
+      "contact_steps": 0,
+      "clipped_substeps": 0,
+      "pusher_contact_steps": 0,
+      "robot_contact_steps": 0,
+      "episode": 19,
+      "scene_seed": 30019,
+      "reward": -100.66110280941757,
+      "peak_contact_force": 0.0,
+      "goal": [
+        0.5248373716639895,
+        0.07311846855748318
+      ],
+      "box_start": [
+        0.4670373355446267,
+        -0.10494477987340002
+      ]
+    }
+  ],
+  "success_rate": 0.15
+}
